@@ -4,6 +4,7 @@
   "description": "Simple scripts for learning TypeScript.",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
