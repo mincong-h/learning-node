@@ -84,3 +84,10 @@ COMMON COMMANDS
 ### pnpm
 
 Fast, disk space efficient package manager for npm. See <https://pnpm.io/>
+
+
+Recursively build all the modules inside the pnpm workspace:
+
+```sh
+pnpm -r build
+```
