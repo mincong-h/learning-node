@@ -1,2 +1,3 @@
 # learning-node
-Learning Node.js 🔍
+
+This is my playground for learning different concepts related to Node.js and Typescript 🔍
