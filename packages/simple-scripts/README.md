@@ -1,4 +1,10 @@
-# simple-script
+# simple-scripts
+
+**Key takeaways:**
+
+* `pnpm init` can be used to initialize a package inside a pnpm workspace
+* `tsconfig.json` is used for TypeScript Compiler (tsc)
+* TypeScript Compiler (tsc) can be used to compile a project or a file
 
 ## Initialization
 
@@ -18,11 +24,13 @@ cd packages/simple-scripts
 pnpm init
 ```
 
-## Transpilation
+## Compilation
 
-# Transpile Project
+Source-to-source compilation from TypeScript to JavaScript.
 
-Use TypeScript Compiler (`tsc`) to transpile the source code into JavaScript. The output files are stored in the `dist` directory. The source directory and output directory are configured in the TypeScript configuration (`tsconfig.json`).
+### Compile A Project
+
+Use TypeScript Compiler (`tsc`) to compile the source code into JavaScript. The output files are stored in the `dist` directory. The source directory and output directory are configured in the TypeScript configuration (`tsconfig.json`).
 
 ```sh
 npx tsc
@@ -51,12 +59,12 @@ function greet(name) {
 console.log(greet("World"));
 ```
 
-## Transpile File
+### Compile A File
 
-But you can also transpile a single file:
+But you can also compile a single file:
 
 ```sh
-# transpile one single file
+# compile one single file
 npx tsc src/index.ts
 ```
 
