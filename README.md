@@ -80,3 +80,7 @@ COMMON COMMANDS
 
 ...
 ```
+
+### pnpm
+
+Fast, disk space efficient package manager for npm. See <https://pnpm.io/>
