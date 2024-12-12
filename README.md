@@ -1,10 +1,20 @@
-# learning-node
+# Learning Node.js
 
 This is my playground for learning different concepts related to Node.js and Typescript 🔍
 
+This project uses Node.js 22 and TypeScript 5.
+
 ## Terminology
 
-### Typescript
+### Node
+
+[Node.js®](https://nodejs.org/en) is a free, open-source, cross-platform JavaScript runtime environment that lets developers create servers, web apps, command line tools and scripts.
+
+```sh
+pnpm install @types/node --save-dev
+```
+
+### TypeScript
 
 [TypeScript](https://www.typescriptlang.org/) is Javascript with syntax for types. TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. You can install Typescript using pnpm.
 
