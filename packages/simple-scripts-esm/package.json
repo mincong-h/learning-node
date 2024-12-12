@@ -1,0 +1,11 @@
+{
+  "name": "simple-scripts-esm",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Simple scripts for learning TypeScript (ESM).",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
