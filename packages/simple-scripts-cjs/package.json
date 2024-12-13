@@ -1,15 +1,10 @@
 {
-  "name": "simple-scripts-cjs",
+  "name": "@mincongclassroom/simple-scripts-cjs",
   "type": "commonjs",
   "version": "1.0.0",
   "description": "Simple scripts for learning TypeScript (CommonJS).",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "vitest run"
-  },
-  "devDependencies": {
-    "typescript": "^4.4.3",
-    "vitest": "^1.0.0"
+    "build": "tsc"
   }
 }

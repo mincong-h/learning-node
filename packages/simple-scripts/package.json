@@ -1,5 +1,5 @@
 {
-  "name": "simple-scripts",
+  "name": "@mincongclassroom/simple-scripts",
   "version": "1.0.0",
   "description": "Simple scripts for learning TypeScript.",
   "main": "index.js",

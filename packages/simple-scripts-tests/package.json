@@ -1,5 +1,5 @@
 {
-  "name": "simple-scripts-tests",
+  "name": "@mincongclassroom/simple-scripts-tests",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "simple-scripts-cjs": "workspace:*"
+    "@mincongclassroom/simple-scripts-cjs": "workspace:*"
   },
   "devDependencies": {
     "vitest": "^1.0.0"

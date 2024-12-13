@@ -20,20 +20,13 @@ importers:
 
   packages/simple-scripts: {}
 
-  packages/simple-scripts-cjs:
-    devDependencies:
-      typescript:
-        specifier: ^4.4.3
-        version: 4.9.5
-      vitest:
-        specifier: ^1.0.0
-        version: 1.6.0(@types/node@22.10.2)
+  packages/simple-scripts-cjs: {}
 
   packages/simple-scripts-esm: {}
 
   packages/simple-scripts-tests:
     dependencies:
-      simple-scripts-cjs:
+      '@mincongclassroom/simple-scripts-cjs':
         specifier: workspace:*
         version: link:../simple-scripts-cjs
     devDependencies:
@@ -592,11 +585,6 @@ packages:
   type-detect@4.1.0:
     resolution: {integrity: sha512-Acylog8/luQ8L7il+geoSxhEkazvkslg7PSNKOX59mbB9cOveP5aq9h74Y7YU8yDpJwetzQQrfIwtf4Wp4LKcw==}
     engines: {node: '>=4'}
-
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
 
   typescript@5.7.2:
     resolution: {integrity: sha512-i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==}
@@ -1180,8 +1168,6 @@ snapshots:
   tinyspy@3.0.2: {}
 
   type-detect@4.1.0: {}
-
-  typescript@4.9.5: {}
 
   typescript@5.7.2: {}
 
