@@ -2,7 +2,7 @@
 
 **Key takeaways:**
 
-* Adds a `__esModule` property to handle interoperability with ESModules.
+* Adds a `__esModule` property to handle interoperability with ESModules, done by `"esModuleInterop": true` in `tsconfig.json`.
 * Exports are assigned as properties of the `exports` object.
 * Uses `require` and `module.exports` under the hood.
   * Clients use `import` statement
