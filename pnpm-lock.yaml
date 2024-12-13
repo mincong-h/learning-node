@@ -26,7 +26,7 @@ importers:
 
   packages/simple-scripts-tests:
     dependencies:
-      '@mincongclassroom/simple-scripts-cjs':
+      '@mincong-classroom/simple-scripts-cjs':
         specifier: workspace:*
         version: link:../simple-scripts-cjs
     devDependencies:
