@@ -19,6 +19,8 @@ importers:
 
   packages/simple-scripts-cjs: {}
 
+  packages/simple-scripts-esm: {}
+
 packages:
 
   '@types/node@22.10.2':
