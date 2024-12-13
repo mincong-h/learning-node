@@ -31,6 +31,16 @@ importers:
 
   packages/simple-scripts-esm: {}
 
+  packages/simple-scripts-tests:
+    dependencies:
+      simple-scripts-cjs:
+        specifier: workspace:*
+        version: link:../simple-scripts-cjs
+    devDependencies:
+      vitest:
+        specifier: ^1.0.0
+        version: 1.6.0(@types/node@22.10.2)
+
 packages:
 
   '@esbuild/aix-ppc64@0.21.5':
