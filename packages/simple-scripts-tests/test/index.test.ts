@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 
 // Load the compiled CommonJS module using require
-const cjsModule = require('simple-scripts-cjs');
+const cjsModule = require('@mincong-classroom/simple-scripts-cjs');
 
 describe('CommonJS Module Behavior', () => {
   it('should export the named export correctly', () => {
