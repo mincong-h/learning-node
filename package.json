@@ -1,5 +1,5 @@
 {
-  "name": "learning-node",
+  "name": "@mincong-classroom/learning-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
   }
 }

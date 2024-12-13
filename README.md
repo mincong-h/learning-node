@@ -1,8 +1,15 @@
 # Learning Node.js
 
-This is my playground for learning different concepts related to Node.js and Typescript 🔍
+This is my playground for learning different concepts related to Node.js and Typescript 🔍 This project uses Node.js 22 and TypeScript 5.
 
-This project uses Node.js 22 and TypeScript 5.
+You can use this project to learn JS too. You can:
+
+* Read the "key takeaways" of each README.md of different packages to understand what are the most important pieces of information that you should remember from that package
+* Read the operations of each README.md to see how is was done
+* Clone the source code to play it yourself
+* Visit the CI (GitHub Actions) to see how the source code is built.
+
+Your contribution is welcome!
 
 ## Terminology
 

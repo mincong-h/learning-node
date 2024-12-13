@@ -18,3 +18,20 @@ jobs:
           cache: pnpm
       - run: pnpm install
       - run: pnpm -r build
+
+  integration-tests:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install
+      - run: pnpm -r build
+      - run: pnpm -r test:integration

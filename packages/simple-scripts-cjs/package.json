@@ -1,0 +1,10 @@
+{
+  "name": "@mincong-classroom/simple-scripts-cjs",
+  "type": "commonjs",
+  "version": "1.0.0",
+  "description": "Simple scripts for learning TypeScript (CommonJS).",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  }
+}
