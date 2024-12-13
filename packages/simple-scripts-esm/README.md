@@ -1,4 +1,4 @@
-# simple-scripts-cjs
+# simple-scripts-esm
 
 **Key takeaways:**
 
