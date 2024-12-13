@@ -29,6 +29,9 @@ importers:
       '@mincong-classroom/simple-scripts-cjs':
         specifier: workspace:*
         version: link:../simple-scripts-cjs
+      '@mincong-classroom/simple-scripts-esm':
+        specifier: workspace:*
+        version: link:../simple-scripts-esm
     devDependencies:
       vitest:
         specifier: ^1.0.0

@@ -2,9 +2,10 @@
 
 **Key takeaways:**
 
-* Adds a `__esModule` property to handle interoperability with ESModules.
+* Adds a `__esModule` property to handle interoperability with ESModules, done by `"esModuleInterop": true` in `tsconfig.json`.
 * Exports are assigned as properties of the `exports` object.
 * Uses `require` and `module.exports` under the hood.
+  * Clients use `import` statement
 
 ## Output
 
@@ -25,5 +26,13 @@ On the client side, you can use the module using the `require` keyword. See deta
 
 ```ts
 const ss = require('@mincong-classroom/simple-scripts-cjs');
+ss.greet('World') // Hello, World!
+```
+
+or
+
+```ts
+import ss from '@mincong-classroom/simple-scripts-cjs';
+
 ss.greet('World') // Hello, World!
 ```
