@@ -98,3 +98,18 @@ Recursively build all the modules inside the pnpm workspace:
 ```sh
 pnpm -r build
 ```
+
+## Publishing
+
+```sh
+# --no-git-tag-version don't create Git tag otherwise we will end up with a lot of tags,
+# one per commit.
+npm version "1.0.0-dev-$(git rev-parse --short HEAD)" --no-git-tag-version
+```
+
+then
+
+```sh
+# --tag allows clients to use the SDK using a tag rather than a semantic version.
+npm publish --access=public --tag dev
+```
