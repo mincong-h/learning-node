@@ -15,3 +15,9 @@ flowchart LR
     package_json -- tag --> v_stable
     v_stable --> v_1_0_0 
 ```
+
+## Tag
+
+When you want to update a tag, you have to publish a new version (based on the field "version" in the `package.json`) file. Otherwise, the `npm-publish` command fails with the following error:
+
+> npm error You cannot publish over the previously published versions: 0.49.0.
